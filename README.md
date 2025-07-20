@@ -12,7 +12,23 @@ See detailed findings in [`notebooks/injury_analysis_summary.ipynb`](notebooks/i
 
 *Briefly: Central backs and central midfielders suffer the most injuries, goalkeepers have the highest median recovery time, wide midfielders and wingers have the fewest injuries. For further details and analysis limitations, see the conclusion in the notebook.*
 
+##  Main Visualizations
 
+### Chart 1: Average by Injury Category
+
+![Avarege Downtime by Injury Category](visualizations/average_downtime_by_injury.png)
+
+### Chart 2: Mean and Median by Position
+![Mean and Median Downtime by Player Position (Polytrauma Excluded)](visualizations/downtime_by_position_mean_median.png)
+
+### Chart 3: Downtime Distribution by Position (Boxplot)
+![Downtime Boxplot](visualizations/downtime_distribution_by_position.png)
+
+### Injury Count by Player Position
+![Injury Count](visualizations/injury_count_by_position.png)
+
+### Injury Type Frequency by Position (Heatmap)
+![Injury Heatmap](visualizations/heatmap_injury_type_for_position.png)
 
 \## Used apps
 
