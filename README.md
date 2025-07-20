@@ -4,10 +4,10 @@
 
 
 
-\## Abstract
+## Abstract
 Research of the impact of injuries on player performance, correlation analysis and data visualization.
 
-\## Conclussion
+## Conclussion
 See detailed findings in [`notebooks/injury_analysis_summary.ipynb`](notebooks/injury_analysis_summary.ipynb).*
 
 *Briefly: Central backs and central midfielders suffer the most injuries, goalkeepers have the highest median recovery time, wide midfielders and wingers have the fewest injuries. For further details and analysis limitations, see the conclusion in the notebook.*
@@ -29,6 +29,14 @@ See detailed findings in [`notebooks/injury_analysis_summary.ipynb`](notebooks/i
 
 ### Injury Type Frequency by Position (Heatmap)
 ![Injury Heatmap](visualizations/heatmap_injury_type_for_position.png)
+
+
+## Streamlit Interactive Dashboard
+
+You can run an interactive web app to explore the main analytics:
+
+``bash
+streamlit run app/streamlit_app.py
 
 \## Used apps
 
